@@ -4,7 +4,7 @@ To build the project, navigate into the redfin.foodtrucks directory. Run with th
 ```
 ./gradlew build
 ```
-
+The above command may take a few minutes if you have never run gradle before.
 After building the project, run it with this command:
 
 ```
@@ -13,8 +13,9 @@ After building the project, run it with this command:
 
 Type enter to see the next set of foodtruck results or type exit to exit the program. 
 
-Note: To run this, you may need to download install Java runtime if you have have never run Java on your computer in the past. It can be found here: 
+Note: If you you have have never run Java on your machine in the past, you maybe prompted to install Java runtime. It can be found here: 
 https://www.oracle.com/technetwork/java/javase/downloads/jdk12-downloads-5295953.html
+
 
 
 ## What I would change if this was a full scale web application:
