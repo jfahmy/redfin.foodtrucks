@@ -43,7 +43,7 @@ public class FoodTruckFinder {
         }
 
         /**
-         * Getting the current day of the week and the current time to narrow my foodtruck query.
+         * Getting the current day of the week and the current time to narrow our foodtruck query.
          * TODO: For future iterations, the Socrata API has options to Order the results alphabetically, so I would add
          * this into my request above. I noticed this at the last minute, after already implementing FoodTruckLister.
          * */
@@ -52,7 +52,7 @@ public class FoodTruckFinder {
             SimpleDateFormat day = new SimpleDateFormat("EEEE");
             return day.format(now);
         }
-
+        
         public static String getCurrentTime() {
             Date date = new Date();
             DateFormat format = new SimpleDateFormat("HH:mm");
